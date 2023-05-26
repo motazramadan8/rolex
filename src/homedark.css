@@ -1,0 +1,21 @@
+.carrrrddd{
+    background-color: hsl(0, 0%, 16%);
+    height: 330px;
+    margin: 10px auto;
+}
+.carrrrddd:hover{
+    background-color: #ffb566;
+    color: #000;
+    height: 380px;
+    cursor: pointer;
+}
+
+.carrrrddd:hover h5{
+  background-color: #000;
+}
+
+
+.carrrrddd:hover .hide {
+    transform: translateY(0);
+    opacity: 1;
+  }

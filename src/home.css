@@ -1,0 +1,93 @@
+.hide {
+    margin-left: 55px;
+    background-color: hsl(0, 0%, 17%);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid hsl(0, 0%, 17%);
+    opacity: 0;
+    transition: all ease-in-out 0.3s;
+}
+.carddd{
+    background-color: white;
+    height: 330px;
+    margin: 10px auto;
+}
+.carddd:hover{
+    background-color: white;
+    height: 380px;
+}
+
+
+
+.carddd:hover .hide {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+
+  .carddddd{
+    cursor: pointer;
+    margin: 10px;
+    margin-left: 80px;
+  }
+
+  .addddd{
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    display: none;
+    transition: all ease-in-out 0.2s;
+  }
+
+  .carddddd:hover .addddd{
+    display: block;
+    transform: translateY(0);
+  }
+
+  .prodimg{
+    overflow: hidden;
+    transition: all ease-in-out 0.5s;
+  }
+
+  .carddddd:hover .prodimg{
+    transform: scale(1.1);
+  }
+
+
+
+
+  .carrrrddd{
+    background-color: white;
+    height: 330px;
+    margin: 10px auto;
+}
+.carrrrddd:hover{
+    background-color: #ffb566;
+    color: #000;
+    height: 380px;
+    cursor: pointer;
+}
+
+.carrrrddd:hover h5{
+  background-color: #000;
+}
+
+
+.carrrrddd:hover .hide {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+.link{
+  color: #ffb566;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: all ease 0.4s;
+}
+
+.link:hover{
+  color: #ffb566;
+  text-decoration: none;
+  margin: 0 10px;
+  transform: scale(1.1);
+}
