@@ -55,7 +55,7 @@ const Footer = () => {
 
       <hr />
         <br />
-      <h5 style={{ textAlign: 'center' }}>© <a style={{textDecoration: 'none' , color: '#000'}} href="https://motaz-ramadan.vercel.app/">Motaz Ramadan.</a> All rigths reserved</h5>
+      <h5 style={{ textAlign: 'center' }}>© <a style={{textDecoration: 'none' , color: '#000'}} href="https://motaz.vercel.app/">Motaz Ramadan.</a> All rigths reserved</h5>
     </>
   )
 }
